@@ -1,17 +1,18 @@
 {
-  "name": "bitcore-message",
-  "main": "./bitcore-message.min.js",
+  "name": "bitcore-message-hush",
+  "main": "./bitcore-message-hush.min.js",
   "version": "1.0.3",
-  "homepage": "https://github.com/bitpay/bitcore-message",
+  "homepage": "https://github.com/TheTrunk/bitcore-message-hush",
   "authors": [
-    "BitPay"
+    "TheTrunk"
   ],
-  "description": "Bitcoin Message Verification and Signing for Bitcore",
+  "description": "Hush Message Verification and Signing for Bitcore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "bitcoin",
+    "hush",
     "bitcore",
     "btc",
     "satoshi",

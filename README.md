@@ -1,30 +1,28 @@
-<img src="http://bitcore.io/css/images/module-message.png" alt="bitcore message" height="35">
-# Bitcoin Message Verification and Signing for Bitcore
+# Hush Message Verification and Signing for Bitcore
 
-
-[![NPM Package](https://img.shields.io/npm/v/bitcore-message.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-message)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-message?branch=master)
-
-bitcore-message adds support for verifying and signing bitcoin messages in [Node.js](http://nodejs.org/) and web browsers.
+bitcore-message-hush adds support for verifying and signing Hush messages in [Node.js](http://nodejs.org/) and web browsers.
 
 See [the main bitcore repo](https://github.com/bitpay/bitcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-message
+git clone https://github.com/TheTrunk/bitcore-message-hush.git
+cd bitcore-message-hush
+npm install
 ```
 
 ```sh
-bower install bitcore-message
+git clone https://github.com/TheTrunk/bitcore-message-hush.git
+cd bitcore-message-hush
+bower install
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib');
-var Message = require('bitcore-message');
+var bitcore = require('bitcore-lib-hush');
+var Message = require('bitcore-message-hush');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
@@ -47,4 +45,4 @@ See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING
 Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-
+Copyright 2017 TheTrunk

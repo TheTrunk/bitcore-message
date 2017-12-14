@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-message",
+  "name": "bitcore-message-hush",
   "version": "1.0.3",
-  "description": "Bitcoin Messages for Bitcore",
-  "author": "BitPay <dev@bitpay.com>",
+  "description": "Hush Messages for Bitcore",
+  "author": "BitPay <dev@bitpay.com>, TheTrunk",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "bitcoin",
+    "hush",
     "bitcore",
     "btc",
     "satoshi",
@@ -20,13 +21,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-message.git"
+    "url": "https://github.com/TheTrunk/bitcore-message-hush.git"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.7"
+    "bitcore-lib-hush": "git://github.com/TheTrunk/bitcore-lib-hush#master"
   },
   "devDependencies": {
-    "bitcore-build": "bitpay/bitcore-build",
+    "bitcore-build-hush": "git://github.com/TheTrunk/bitcore-build-hush#master",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
